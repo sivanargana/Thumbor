@@ -3,7 +3,7 @@ FROM ghcr.io/minimalcompact/thumbor:latest
 
 # Optional: copy your own thumbor.conf
 # (you can skip this if defaults are fine)
-COPY thumbor.conf /etc/thumbor/thumbor.conf
+
 
 # Render expects the app to listen on $PORT
 # The base image normally uses 80, we map it to $PORT
